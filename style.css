@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e74c3c ;
+    font-family: "Sofadi One";
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 24px;
+    padding: 24px;
+
+}
+.sticky{
+    height: 200px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-add{
+    height: 200px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 32px;
+    background-color:#34495e ;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: #95a5a6;
+    border-radius: 5px;  
+}
